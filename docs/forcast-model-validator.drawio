@@ -1,0 +1,85 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.1.1 Chrome/132.0.6834.210 Electron/34.3.3 Safari/537.36" version="26.1.1">
+  <diagram name="highlevel-component-diagram" id="wiQ9-AAr1t4GYWNyf1SL">
+    <mxGraphModel dx="2284" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SjTeOy6-3m4CiokiMHZb-24" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="10" y="90" width="470" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="SjTeOy6-3m4CiokiMHZb-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="SjTeOy6-3m4CiokiMHZb-3" target="SjTeOy6-3m4CiokiMHZb-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SjTeOy6-3m4CiokiMHZb-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 8;" parent="1" source="SjTeOy6-3m4CiokiMHZb-3" target="SjTeOy6-3m4CiokiMHZb-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SjTeOy6-3m4CiokiMHZb-3" value="Preprocessor" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="130" y="180" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="SjTeOy6-3m4CiokiMHZb-9" value="3. preprocess the data.&lt;div&gt;5. Feature engineer if requires.&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="170" y="130" width="310" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="SjTeOy6-3m4CiokiMHZb-10" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="720" y="560" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="SjTeOy6-3m4CiokiMHZb-11" value="Object storage" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="735" y="605" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SjTeOy6-3m4CiokiMHZb-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="SjTeOy6-3m4CiokiMHZb-12" target="SjTeOy6-3m4CiokiMHZb-16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SjTeOy6-3m4CiokiMHZb-12" value="Model trainer" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="130" y="370" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="SjTeOy6-3m4CiokiMHZb-14" value="6. Train model." style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="185" y="330" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SjTeOy6-3m4CiokiMHZb-16" value="Evaluator" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="125" y="570" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="SjTeOy6-3m4CiokiMHZb-18" value="8. Predict data for the testing dataset" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="190" y="525" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="SjTeOy6-3m4CiokiMHZb-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.007;entryY=0.652;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=8 8;" parent="1" source="SjTeOy6-3m4CiokiMHZb-16" target="SjTeOy6-3m4CiokiMHZb-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bZ8SjMpaMsy72nYA7q97-1" value="Currently this will be the local file system" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="820" y="600" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bZ8SjMpaMsy72nYA7q97-2" value="model-evaluator" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-425" y="180" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="bZ8SjMpaMsy72nYA7q97-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.255;entryY=0.23;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bZ8SjMpaMsy72nYA7q97-2" target="SjTeOy6-3m4CiokiMHZb-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bZ8SjMpaMsy72nYA7q97-4" value="1. Choose a model to train the data&lt;div&gt;2. Invoke the pre-processor for the model specific pre-processing&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-310" y="180" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bZ8SjMpaMsy72nYA7q97-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.85;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=8 8;startArrow=classic;startFill=0;endArrow=none;" edge="1" parent="1" source="bZ8SjMpaMsy72nYA7q97-2" target="SjTeOy6-3m4CiokiMHZb-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-375" y="770" />
+              <mxPoint x="600" y="770" />
+              <mxPoint x="600" y="637" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bZ8SjMpaMsy72nYA7q97-7" value="&lt;span style=&quot;&quot;&gt;11. Suggesting what is the best model for the dataset and the time range according to the final evaluation information.&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-360" y="315" width="350" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bZ8SjMpaMsy72nYA7q97-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.222;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="SjTeOy6-3m4CiokiMHZb-12" target="SjTeOy6-3m4CiokiMHZb-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bZ8SjMpaMsy72nYA7q97-9" value="&lt;br&gt;&lt;div&gt;7. Dump the model&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="237" y="378" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bZ8SjMpaMsy72nYA7q97-10" value="&lt;br&gt;&lt;div&gt;9. Plot the predicted values in a scatter plot save it as a png&amp;nbsp; &amp;nbsp;&lt;/div&gt;&lt;div&gt;10. Construct the evaluation information&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="244" y="565" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bZ8SjMpaMsy72nYA7q97-11" value="&lt;div&gt;4. plot the dataset and save the image as png.&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="190" width="310" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

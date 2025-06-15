@@ -28,6 +28,7 @@ nbclient==0.10.2
 nbformat==5.10.4
 nest-asyncio==1.6.0
 numpy==2.3.0
+nvidia-nccl-cu12==2.27.3
 packaging==25.0
 pandas==2.3.0
 parso==0.8.4
@@ -61,6 +62,8 @@ tqdm==4.67.1
 traitlets==5.14.3
 tzdata==2025.2
 wcwidth==0.2.13
+xgboost==3.0.2
+
 dash==2.16.1
 dash-bootstrap-components==1.5.0
 Flask==3.0.0

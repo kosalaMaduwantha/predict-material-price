@@ -17,7 +17,7 @@ data_frame = data_frame.rename(columns={"Date": "ds",
 ```python
 # splitting the dataset into train and test sets
 train_data = data_frame[data_frame['ds'] < '2023-01-01']
-test_data = data_frame[data_frame['ds'] >= '2023-01-01']
+test_data = data_frame[data_frame['ds'] >= '2023-01-01']****
 ```
 
 ### Fitting the model
