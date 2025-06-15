@@ -61,3 +61,6 @@ tqdm==4.67.1
 traitlets==5.14.3
 tzdata==2025.2
 wcwidth==0.2.13
+dash==2.16.1
+dash-bootstrap-components==1.5.0
+Flask==3.0.0

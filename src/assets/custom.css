@@ -1,0 +1,65 @@
+   
+.dash-table-container .dash-spreadsheet-container .dash-spreadsheet-inner th {
+    background-color: #f8f9fa;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 5px;
+}
+
+.dash-table-container .dash-spreadsheet-container .dash-spreadsheet-inner td {
+    padding: 10px 5px;
+}
+
+.dash-table-container {
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for buttons */
+.btn-group > .btn {
+    border-radius: 0;
+}
+
+.btn-group > .btn:first-child {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.btn-group > .btn:last-child {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+/* Make the active button more visible */
+.btn-primary:not(.active) {
+    background-color: white;
+    color: #007bff;
+}
+
+.btn-primary.active {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Main container styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    color: #333;
+    font-weight: 600;
+}
+
+/* Toggle switch styles */
+.form-check-input {
+    cursor: pointer;
+}
+
+/* Chart styles */
+.js-plotly-plot {
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
